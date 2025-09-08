@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
-FROM registry.gitlab.com/islandoftex/images/texlive:TL2023-2023-08-13-full
+# FROM registry.gitlab.com/islandoftex/images/texlive:TL2023-2023-08-13-full
+FROM registry.gitlab.com/islandoftex/images/texlive:latest
 
 # install dependencies
 RUN apt update && apt install -y wget
